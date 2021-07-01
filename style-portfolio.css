@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin: 11rem 0;
+    
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 5rem;
+    color: #FFBD9B;
+    animation-name: heading;
+    animation-duration: 8s;
+}
+
+@keyframes heading{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.container-fluid{
+    animation-name: carousel-animation;
+    animation-duration: 12s;
+}
+
+@keyframes carousel-animation{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.carousel{
+    width: 60%;
+    margin: 0;
+}
+.carousel-control-prev{
+    margin-left: -15rem;
+}
+.carousel-control-next{
+    margin-right: -15rem;
+}
+
+h3{
+    margin: 5rem;
+    letter-spacing: 2px;
+}
+
+h2  {
+    margin: 5rem ;
+    font-size: 3rem;
+    color: #dddddd;
+    letter-spacing: 5px;
+}
+
+span{
+    color:  #FFBD9B ;
+}
+.row{
+    margin: 2rem 0 10rem;
+}
+
+.btn{
+    width: 50%;
+    margin: 2rem 0;
+    
+}
+.btn:hover{
+    background-color: #FFBD9B;
+}

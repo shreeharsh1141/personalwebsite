@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 2px;
+   
+    
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: #FDFAF6;
+}
+
+/* top container */
+
+img{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    animation-name: laptop;
+    animation-duration: 6s;
+}
+
+@keyframes laptop{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* top-container intro */
+
+.intro{
+    position: relative;
+    left: 1rem;
+    top: 3rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    z-index: 2;
+    color: #FFBD9B;
+}
+
+h2{
+    color: #DDDDDD;
+    animation-name: hello;
+    animation-duration: 3s;
+}
+
+@keyframes hello{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+h1{
+    line-height: 5rem;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    animation-name: myName;
+    animation-duration: 6s;
+}
+
+h4{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    animation-name: myName;
+    animation-duration: 6s;
+}
+
+@keyframes myName{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+/* middle-container */
+
+.middle-container{
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 4rem;
+}
+.row{
+    margin: 8rem 0 0;
+
+}
+.title{
+    font-size: 3rem;
+    font-weight:500;
+    color: #FFBD9B;
+}
+
+
+.icons{
+    width: 5rem;
+    float: left;
+    margin:0 5rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    letter-spacing: 1px;
+}
+
+/* bottom-container */
+.bottom-container{
+    align-items: center;
+    text-align: center;
+    margin: 0 0 10rem;
+}
+
+.hasslefree{
+    margin: 2rem;
+    width: 30%;
+}
+
+.bottom-heading{
+    font-size: 4rem;
+    color: #FFBD9B;
+}
+
+#bottom-p{
+    font-size: 2rem;
+    color: #dddddd;
+}
+
+.bottom-row{
+    margin-top: 2rem;
+    padding: 0;
+}
+
+
+.btn{
+    width: 50%;
+    margin-top: 2rem;
+    
+}
+.btn:hover{
+    background-color: #FFBD9B;
+}
